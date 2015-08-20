@@ -2,7 +2,10 @@
   "predef": [
     "document",
     "window",
-    "-Promise"
+    "-Promise",
+    "Ember", // Added
+    "$", // ADDED
+    "Modernizr" // ADDED
   ],
   "browser": true,
   "boss": true,
