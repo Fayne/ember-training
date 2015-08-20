@@ -13,8 +13,8 @@ module.exports = function(defaults) {
   // output files.
   //
   
-  app.import('bower_components/bootstrap/dist/css/bootstrap.min.css');
-  app.import('bower_components/bootstrap/dist/js/bootstrap.min.js');
+  app.import(app.bowerDirectory + '/bootstrap/dist/js/bootstrap.min.js');
+  app.import(app.bowerDirectory + '/bootstrap/dist/css/bootstrap.min.css');
   
   // If you need to use different assets in different
   // environments, specify an object as the first parameter. That
